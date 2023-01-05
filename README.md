@@ -4,6 +4,7 @@
 * [Version](#version)
 * [Screens](#screens)
 * [Live](#live-star2)
+* [Info about React App](#info-about-react-app)
 
 ## General info
 Quiz application written using React.    
