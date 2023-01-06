@@ -1,6 +1,6 @@
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="app_container">
       <p>Quiz App</p>
