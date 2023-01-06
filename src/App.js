@@ -1,7 +1,9 @@
+import TitleContainer from "./componenets/TitleContainer";
+
 const App = () => {
   return (
     <div className="app_container">
-      <p>Quiz App</p>
+      <TitleContainer />
     </div>
   );
 }
