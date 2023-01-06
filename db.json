@@ -1,37 +1,39 @@
-{
-    "quizId": "w4xke33",
-    "title": "Which superhero are you?",
-    "subtitle": "Super powers achh...",
-    "content": [
-        {
-            "id": "0",
-            "text": "Choose a superhero: ",
-            "answers": [
-                {
-                    "text": "Spiderman",
-                    "imgUrl": "https://images.unsplash.com/photo-1524481905007-ea072534b820",
-                    "alt": "Spiderman",
-                    "credits": "Jean-Philippe Delberghe"
-                },
-                {
-                    "text": "Superman",
-                    "imgUrl": "https://images.unsplash.com/photo-1538051046377-5ad74dc62f95",
-                    "alt": "Superman",
-                    "credits": "Yogi Purnama"
-                },
-                {
-                    "text": "Hulk",
-                    "imgUrl": "https://images.unsplash.com/photo-1542623024-a797a755b8d0",
-                    "alt": "Hulk",
-                    "credits": "Limor Zellermayer"
-                },
-                {
-                    "text": "Thor",
-                    "imgUrl": "https://images.unsplash.com/photo-1613331455414-1e9258b4b422",
-                    "alt": "Thor",
-                    "credits": "Ravi Palwe"
-                }
-            ]
-        }
-    ]
+{ 
+    "quiz": {
+        "quizId": "w4xke33",
+        "title": "Which superhero are you?",
+        "subtitle": "Super powers achh...",
+        "content": [
+            {
+                "id": "0",
+                "text": "Choose a superhero: ",
+                "answers": [
+                    {
+                        "text": "Spiderman",
+                        "imgUrl": "https://images.unsplash.com/photo-1524481905007-ea072534b820",
+                        "alt": "Spiderman",
+                        "credits": "Jean-Philippe Delberghe"
+                    },
+                    {
+                        "text": "Superman",
+                        "imgUrl": "https://images.unsplash.com/photo-1538051046377-5ad74dc62f95",
+                        "alt": "Superman",
+                        "credits": "Yogi Purnama"
+                    },
+                    {
+                        "text": "Hulk",
+                        "imgUrl": "https://images.unsplash.com/photo-1542623024-a797a755b8d0",
+                        "alt": "Hulk",
+                        "credits": "Limor Zellermayer"
+                    },
+                    {
+                        "text": "Thor",
+                        "imgUrl": "https://images.unsplash.com/photo-1613331455414-1e9258b4b422",
+                        "alt": "Thor",
+                        "credits": "Ravi Palwe"
+                    }
+                ]
+            }
+        ]
+    }
 }
