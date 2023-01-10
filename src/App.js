@@ -7,8 +7,9 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("https://localhost:8000/quiz");
-      const json = response.json();
+      const response = await fetch("http://localhost:8000/quiz");
+      const json = await response.json();
+      console.log(json);
       setQuiz(json);
     } catch (error) {
       console.log(error);
@@ -19,9 +20,11 @@ const App = () => {
     fetchData();
   },[])
 
+  console.log(quiz);
+
   return (
-    <div className="app_container">
-      <TitleContainer />
+    <div className="wrapper">
+      {<TitleContainer title={quiz?.title} subtitle={quiz?.subtitle}/> }
     </div>
   );
 }
