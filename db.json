@@ -33,6 +33,36 @@
                         "credits": "Ravi Palwe"
                     }
                 ]
+            },
+            {
+                "id": "1",
+                "text": "Choose a power: ",
+                "answers": [
+                    {
+                        "text": "Fire",
+                        "imgUrl": "https://images.unsplash.com/photo-1517594422361-5eeb8ae275a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+                        "alt": "Fire",
+                        "credits": "Cullan Smith"
+                    },
+                    {
+                        "text": "Water",
+                        "imgUrl": "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+                        "alt": "Water",
+                        "credits": "Jong Marshes"
+                    },
+                    {
+                        "text": "Ice",
+                        "imgUrl": "https://images.unsplash.com/photo-1564148204877-9bf116988675?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+                        "alt": "Ice",
+                        "credits": "Xavier Balderas Cejudo"
+                    },
+                    {
+                        "text": "Thunderstorm",
+                        "imgUrl": "https://images.unsplash.com/photo-1605727216801-e27ce1d0cc28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+                        "alt": "Thunderstorm",
+                        "credits": "Tasos Mansour"
+                    }
+                ]
             }
         ]
     }
