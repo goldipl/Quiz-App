@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import TitleContainer from "./componenets/TitleContainer";
+import QuestionContainer from "./componenets/QuestionContainer";
 
 const App = () => {
 
@@ -24,7 +25,13 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      {<TitleContainer title={quiz?.title} subtitle={quiz?.subtitle}/> }
+      <TitleContainer title={quiz?.title} subtitle={quiz?.subtitle}/> 
+       {quiz && quiz.content.map((contentItem, index) => (
+          <QuestionContainer
+            key={index}
+            item={contentItem}
+          />
+       ))}
     </div>
   );
 }
