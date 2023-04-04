@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import TitleContainer from "./componenets/TitleContainer";
 import QuestionContainer from "./componenets/QuestionContainer";
+import AppTitle from "./componenets/AppTitle";
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
 
   return (
     <div className="wrapper">
+      <AppTitle/>
       <TitleContainer title={quiz?.title} subtitle={quiz?.subtitle}/> 
        {quiz && quiz.content.map((contentItem, index) => (
           <QuestionContainer
