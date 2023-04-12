@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import TitleContainer from "./componenets/TitleContainer";
-import QuestionContainer from "./componenets/QuestionContainer";
-import AppTitle from "./componenets/AppTitle";
+import TitleContainer from "./components/TitleContainer";
+import QuestionContainer from "./components/QuestionContainer";
+import AppTitle from "./components/AppTitle";
 
 const App = () => {
 
