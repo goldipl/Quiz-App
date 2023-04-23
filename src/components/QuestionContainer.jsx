@@ -1,19 +1,27 @@
 import AnswerContainer from "./AnswerContainer";
+import styled from "styled-components";
 
 const QuestionContainer = ({item}) => {
     return (  
         <>
             <h2>{item.text}</h2>
-            <div>
+            <AnswersContainer>
                 {item && item.answers.map((contentItem2, index2) => (
                     <AnswerContainer
-                    key={index2}
-                    item={contentItem2}
+                        key={index2}
+                        item={contentItem2}
                     />
                 ))}
-            </div>
+            </AnswersContainer>
          </>
     );
 }
+
+const AnswersContainer = styled.div `
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 408px;
+    gap: 8px;
+`;
 
 export default QuestionContainer;
