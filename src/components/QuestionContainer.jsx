@@ -4,7 +4,7 @@ import styled from "styled-components";
 const QuestionContainer = ({item}) => {
     return (  
         <>
-            <h2>{item.text}</h2>
+            <Question>{item.text}</Question>
             <AnswersContainer>
                 {item && item.answers.map((contentItem2, index2) => (
                     <AnswerContainer
@@ -23,6 +23,16 @@ const AnswersContainer = styled.div `
     justify-content: space-between;
     max-width: 824px;
     gap: 8px;
+    @media (max-width: 600px) {
+        justify-content: center;
+    }
 `;
+
+const Question = styled.h2 `
+    text-align: left;
+    @media (max-width: 600px) {
+        text-align: center
+    }
+`
 
 export default QuestionContainer;
