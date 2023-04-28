@@ -1,7 +1,15 @@
+import styled from "styled-components";
+
 const AppTitle = () => {
     return (  
-        <h1>Quiz App</h1>
+        <QuizTitle>Quiz App</QuizTitle>
     );
 }
+
+const QuizTitle = styled.h1 `
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+`
 
 export default AppTitle;

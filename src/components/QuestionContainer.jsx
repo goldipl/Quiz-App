@@ -20,7 +20,8 @@ const QuestionContainer = ({item}) => {
 const AnswersContainer = styled.div `
     display: flex;
     flex-wrap: wrap;
-    max-width: 408px;
+    justify-content: space-between;
+    max-width: 824px;
     gap: 8px;
 `;
 
