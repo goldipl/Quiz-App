@@ -25,13 +25,12 @@ const AnswersContainer = styled.div `
     gap: 8px;
     @media (max-width: 600px) {
         justify-content: center;
+        gap: 32px;
     }
 `;
 
 const Question = styled.h2 `
-    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255,255,255,0);
+    color: #09009f;
     text-align: left;
     @media (max-width: 600px) {
         text-align: center
