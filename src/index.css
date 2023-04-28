@@ -9,7 +9,7 @@ body {
   align-items: center;
 }
 .wrapper {
-  margin: 16px 0;
+  margin: 16px;
   padding: 32px;
   border-radius: 32px;
   background: linear-gradient(90deg, #bbddec 0%, #d8e5fc 100%);
