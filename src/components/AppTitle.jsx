@@ -9,7 +9,10 @@ const AppTitle = () => {
 const QuizTitle = styled.h1 `
     font-weight: 700;
     text-align: center;
-    text-decoration: underline;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,0);
+    margin-top: 0;
 `
 
 export default AppTitle;
