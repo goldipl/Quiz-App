@@ -30,8 +30,9 @@ const AnswersContainer = styled.div `
 `;
 
 const Question = styled.h2 `
-    color: #09009f;
-    text-align: left;
+    background: -webkit-linear-gradient(45deg, #4af7cc, #0970e7 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,0);
     @media (max-width: 600px) {
         text-align: center
     }
