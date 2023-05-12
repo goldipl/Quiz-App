@@ -29,7 +29,7 @@ const ImageTitle = styled.p `
     text-align: center;
     background-color: #FFFFFF;
     border-radius: 16px;
-    width: calc(80%);
+    width: 80%;
 `
 
 const Image = styled.img `
