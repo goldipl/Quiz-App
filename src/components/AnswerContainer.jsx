@@ -9,11 +9,17 @@ const AnswerContainer = ({item}) => {
     );
 }
 
-const ImageContainer = styled.div `
+const ImageContainer = styled.a `
     position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 24px;
+    &:hover {
+        outline: 1px solid #4af7cc;
+        box-shadow: 0 0 16px 1px #4af7cc;
+    }
 `;
 
 const ImageTitle = styled.p `
